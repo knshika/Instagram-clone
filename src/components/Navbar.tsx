@@ -11,19 +11,30 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <div className="navs">
-                <div className="insta-log">
+                <div className="insta-logo">
                     <img src="/img/logo.png" alt="" />
                 </div>
                 <div className="search">
-                    <input type="text" />
+                    <input type="text" placeholder="search "/>
                 </div>
-                <div className="">
-              <AiFillHome  className="nav-icon" />
-              <RiMessengerLine  className="nav-icon" />
-              <MdExplore  className="nav-icon" />
-                <AiOutlineHeart  className="nav-icon" />
-                <FaUserCircle  className="nav-icon" />
-                </div>
+                <ul className="nav-icons">
+                    <li >
+                       <AiFillHome  className="nav-icon"/>
+                    </li>
+                    <li >
+                       <RiMessengerLine className="nav-icon"/>
+                    </li>
+                    <li >
+                       <MdExplore className="nav-icon"/>
+                    </li>
+                    <li >
+                       <AiOutlineHeart className="nav-icon"/>
+                    </li>
+                    <li >
+                       <FaUserCircle  className="nav-icon"/>
+                    </li>
+              
+                </ul>
             </div>
         </div>
     )

@@ -1,0 +1,5 @@
+.statusbar{
+    height: 90px;
+    background: rgba(var(--d87,255,255,255),1);
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+}

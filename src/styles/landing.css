@@ -1,0 +1,33 @@
+.landing{
+    min-width: 640px;
+    margin-top: 84px;
+    
+}
+.landing .row{
+    width: 100%;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.landing .column-6{
+    max-width: 614px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    background: rgba(var(--d87,255,255,255),1);
+}
+
+.landing .column-4{
+    max-width: 293px;
+    width: 100%;
+    padding: 2px;
+    background: rgba(var(--d87,255,255,255),1);
+}
+
+.landing .statusbar{
+    padding: 10px 5px;
+}
